@@ -1,4 +1,4 @@
-#Test-set 1
+#Test-set 1 - Mean
 def mean(values):
     total = 0
     
@@ -18,7 +18,7 @@ def sdev(values):
     standard_deviation = variance ** 0.5
     return standard_deviation
 
-#Test-set 2
+#Test-set 2 - Greatest Common Divisor
 def findGCD(val1, val2):
     if(val1<0 or val2<0):
         val1 = abs(val1)
@@ -33,7 +33,7 @@ def findGCD(val1, val2):
         return findGCD(val1-val2, val2)
     return findGCD(val1, val2-val1)
 
-#Test-set 3
+#Test-set 3 - Median
     
 def median(val):
     val.sort()
